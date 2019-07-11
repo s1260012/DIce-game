@@ -11,6 +11,11 @@ int main(){
   char name[10];
  srand(time(NULL));
  
+printf("What is your name?\n");
+ scanf("%s",name);
+ printf("Hello, %s\n",name);
+
+ 
   printf("Rolling the dice...\n");
   die1 = roll();
   die2 = roll();
